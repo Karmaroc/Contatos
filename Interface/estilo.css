@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    background: whitesmoke;
+}
+/*Inicío do cabeçalho*/
+#container {
+    width: 1200px;
+    height: 550px;
+    background: white;
+    margin: 30px auto;   
+}
+
+#cabecalho {
+    border: 1px solid;
+    height: 150px;
+    background: black;
+
+}
+
+#borda-pesquisa {
+    border: 2px solid blue;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    background: whitesmoke;;
+    margin: 35px 450px 35px 450px;
+}
+
+#borda-pesquisa input {
+    margin: 15px 0px 20px 15px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 16.5px;
+    background: whitesmoke;
+}
+
+#borda-pesquisa button {
+    border: 1px solid blue;
+    border-radius: 50%;  
+    width: 50px;
+    height: 50px;
+    margin: 15px 0px 15px 10px;
+    background: whitesmoke;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+      
+}
+
+#borda-pesquisa button:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1)
+}
+
+::placeholder {
+    text-align: center;
+}
+
+/*Fim do cabeçalho*/
+
+/*Início colunas*/
+.coluna-nome, .coluna-numero, .coluna-email {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+#cabecalho-contatos .coluna-nome {
+
+    width: 100px;
+    float: left;
+    margin: 20px 200px 20px 20px;
+    
+}
+
+#cabecalho-contatos .coluna-numero {
+    width: 150px;
+    float: left;
+    margin: 20px 200px 20px 0px;
+
+}
+
+#cabecalho-contatos .coluna-email {
+
+    width: 150px;
+    float: left;
+    margin: 20px 100px 20px 0px;
+}
+
+#cabecalho-contatos .coluna-botao {
+    float: right;
+    margin: 20px 20px 0px 0px;
+}   
+
+.coluna-botao button {
+    margin: -10px 0px 10px 0px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 100px;
+    height: 40px;
+}
+
+.coluna-botao button:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+
+}
+hr {
+    clear: both;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+/*Fim colunas*/
+
+#contagem {
+    font-size: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px 0px 0px 20px;
+    color: gray;
+}
+#lista-contatos #perfil {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    float: left;
+    margin: 30px 0px 10px 20px;
+}
+#lista-contatos #nome { /*310px*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 40px 0px 10px 10px;
+    width: 248px;
+    float: left;
+    border: none;
+}
+#lista-contatos #numero {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 350px;
+    float: left;
+    margin: 40px 0px 10px 0px;
+    border: none;
+}
+
+#lista-contatos #email{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 300px;
+    float: left;
+    margin: 40px 0px 10px 0px;
+    border: none;
+}
+
+#lista-contatos #apagar-editar {
+    border: none;
+    width: 0 auto;
+    float: right;
+    margin: 40px 0px 10px 0px;
+    
+}
+
+#lista-contatos {
+    height: 100px;
+}
