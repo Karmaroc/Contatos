@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body {
+    background: whitesmoke;
+}
+
+/*Inicío do cabeçalho*/
+#container {
+    width: 1200px;
+    height: 950px;
+    background: white;
+    margin: 30px auto;   
+}
+
+#cabecalho {
+    background: black;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#cabecalho #perfil {
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    color:white;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#cabecalho #salvar button{
+    font-family: 'Lato', sans-serif;
+    border: 1px solid blue;
+    width: 80px;
+    height: 35px;
+    float: right;
+    margin: 20px 20px 0px 0px;
+    background: white;
+     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+
+}
+
+#cabecalho #salvar button:hover {
+    background: blue;
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#cabecalho #voltar button {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: white;
+    margin: 20px 0px 0px 10px;
+    background: none;
+    border: none;
+     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+#voltar button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+hr {
+    clear: both;
+    width: 100%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+#formulario fieldset {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#formulario fieldset {
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    border-color: black;
+}
+
+#formulario .formatacao {
+    width: 400px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+
+    border-color: blue;
+    
+}
+
+#formulario .formatacao-2 {
+    width: 400px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border-color: blue;
+}
+
+#formulario .formatacao-3 {
+    width: 340px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border-color: blue;
+}
+
+
+.formatacao-4 {
+    width: 50px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-color: blue;
+}
+
+.formatacao-0 {
+    margin-left: 400px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-color: blue;
+}
+
+.formatacao-01 {
+    margin-left: 400px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-color: blue;
+}
+
+.formatacao-5 {
+    width: 195px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-color: blue;
+}

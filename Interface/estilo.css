@@ -19,10 +19,9 @@ body {
 }
 
 #borda-pesquisa {
-    border: 2px solid blue;
+    border: 1px solid blue;
     width: 300px;
     height: 80px;
-    border-radius: 50px;
     background: whitesmoke;;
     margin: 35px 450px 35px 450px;
 }
@@ -34,17 +33,16 @@ body {
     border: none;
     font-size: 16.5px;
     background: whitesmoke;
+    text-align: center;
 }
 
 #borda-pesquisa button {
-    border: 1px solid blue;
-    border-radius: 50%;  
+    border: 1px solid blue; 
     width: 50px;
     height: 50px;
     margin: 15px 0px 15px 10px;
     background: whitesmoke;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-      
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;  
 }
 
 #borda-pesquisa button:hover {
@@ -94,8 +92,7 @@ body {
 
 .coluna-botao button {
     margin: -10px 0px 10px 0px;
-    border: 2px solid blue;
-    border-radius: 20px;
+    border: 1px solid blue;
     color: blue;
     background-color: white;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
@@ -130,12 +127,12 @@ hr {
     border: 1px solid;
     border-radius: 50%;
     float: left;
-    margin: 30px 0px 10px 20px;
+    margin: 10px 0px 10px 20px;
 }
 #lista-contatos #nome { /*310px*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin: 40px 0px 10px 10px;
+    margin: 20px 0px 10px 10px;
     width: 248px;
     float: left;
     border: none;
@@ -145,7 +142,7 @@ hr {
     font-size: 14px;
     width: 350px;
     float: left;
-    margin: 40px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
     border: none;
 }
 
@@ -154,18 +151,25 @@ hr {
     font-size: 14px;
     width: 300px;
     float: left;
-    margin: 40px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
     border: none;
 }
 
-#lista-contatos #apagar-editar {
+#lista-contatos:hover {
     border: none;
-    width: 0 auto;
+    background: rgb(138, 178, 253);
+    cursor: pointer;
+    display: block;
+}
+
+.apagar, .editar {
     float: right;
-    margin: 40px 0px 10px 0px;
-    
+    margin: 20px 0px 0px 0px;
+    border: none;
+    background: none;
+        
 }
 
-#lista-contatos {
-    height: 100px;
+.apagar:hover, .editar:hover {
+    transform: scale(1.2);
 }
